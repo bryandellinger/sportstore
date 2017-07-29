@@ -183,6 +183,7 @@
     <Content Include="Scripts\storeAjax.js" />
     <Content Include="Scripts\storeCommonController.js" />
     <Content Include="Scripts\storeModel.js" />
+    <Content Include="Scripts\storeOrdersController.js" />
     <Content Include="Scripts\storeProductsController.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
