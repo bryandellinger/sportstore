@@ -11,10 +11,12 @@ namespace SportsStore.Controllers
 {
     public class ProductsController : ApiController
     {
-        private IRepository Repository { get; set; }
+       private IRepository Repository { get; set; }
         public ProductsController()
         {
-            Repository = new ProductRepository();
+            //Repository = new ProductRepository();
+            Repository = (IRepository)GlobalConfiguration.Configuration.
+                DependencyResolver.GetService(typeof(IRepository));
         }
         public IEnumerable<Product> GetProducts()
         {

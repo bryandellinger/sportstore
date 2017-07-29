@@ -179,6 +179,10 @@
     <Content Include="Scripts\jquery-2.1.0.min.js" />
     <Content Include="Scripts\knockout-3.1.0.debug.js" />
     <Content Include="Scripts\knockout-3.1.0.js" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\storeAjax.js" />
+    <Content Include="Scripts\storeCommonController.js" />
+    <Content Include="Scripts\storeModel.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -189,11 +193,14 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\PrepController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\CustomResolver.cs" />
     <Compile Include="Infrastructure\Identity\StoreAuthProvider.cs" />
     <Compile Include="Infrastructure\Identity\StoreIdentityDBContext.cs" />
     <Compile Include="Infrastructure\Identity\StoreIdentityDbInitializer.cs" />
@@ -214,6 +221,7 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
     <Content Include="Views\Prep\Orders.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
