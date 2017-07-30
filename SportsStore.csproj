@@ -182,6 +182,8 @@
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\storeAjax.js" />
     <Content Include="Scripts\storeCommonController.js" />
+    <Content Include="Scripts\storeCustomerController.js" />
+    <Content Include="Scripts\storeCustomerModel.js" />
     <Content Include="Scripts\storeModel.js" />
     <Content Include="Scripts\storeOrdersController.js" />
     <Content Include="Scripts\storeProductsController.js" />
@@ -224,6 +226,11 @@
     <Content Include="Scripts\jquery-2.1.0.min.map" />
     <Content Include="Views\Prep\Orders.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\ProductList.cshtml" />
+    <Content Include="Views\Home\ProductCart.cshtml" />
+    <Content Include="Views\Home\Checkout.cshtml" />
+    <Content Include="Views\Home\CartWidget.cshtml" />
+    <Content Include="Views\Home\ThankYou.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
