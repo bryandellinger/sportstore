@@ -180,6 +180,8 @@
     <Content Include="Scripts\knockout-3.1.0.debug.js" />
     <Content Include="Scripts\knockout-3.1.0.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\storeAdminModel.js" />
+    <Content Include="Scripts\storeAdminController.js" />
     <Content Include="Scripts\storeAjax.js" />
     <Content Include="Scripts\storeCommonController.js" />
     <Content Include="Scripts\storeCustomerController.js" />
@@ -197,6 +199,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\PrepController.cs" />
@@ -231,6 +234,10 @@
     <Content Include="Views\Home\Checkout.cshtml" />
     <Content Include="Views\Home\CartWidget.cshtml" />
     <Content Include="Views\Home\ThankYou.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\AdminProductList.cshtml" />
+    <Content Include="Views\Admin\AdminOrderList.cshtml" />
+    <Content Include="Views\Admin\AdminProductAdd.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
